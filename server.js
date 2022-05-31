@@ -1,6 +1,6 @@
 import express from "express"
 import cors from "cors"
-import wpp1 from "./api/app1.route.js"
+import wpp1 from "./api/wpp1.route.js"
 
 const app = express()
 
