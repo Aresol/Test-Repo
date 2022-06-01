@@ -23,6 +23,6 @@ MongoClient.connect(
 //Start the connection with the parameters
 .then(async client => {
     app.listen(port, () => {
-        console.log('listening on port',process.env.port)
+        console.log('listening on port',port)
     })
 })
