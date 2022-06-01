@@ -4,7 +4,7 @@ import dotenv from "dotenv"
 
 dotenv.config()
 const MongoClient = mongodb.MongoClient // access to Mongo client
-const port = process.env.port || 8000 // If cannot access set to 8000
+const port = process.env.port || 5000 // If cannot access set to 8000
 
 MongoClient.connect(
     process.env.WPP1_DB_URI,{
