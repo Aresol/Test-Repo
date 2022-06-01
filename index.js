@@ -9,7 +9,7 @@ const port = process.env.port || 8000 // If cannot access set to 8000
 MongoClient.connect(
     process.env.WPP1_DB_URI,{
         maxPoolSize: 10,
-        wtimeout: 2500,
+        wtimeoutMS: 2500,
         useNewUrlParser: true
     }
 )
