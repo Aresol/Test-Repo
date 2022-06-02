@@ -4,7 +4,6 @@ import router from "./route.js"
 
 const app = express()
 
-app.use(cors())
 app.use(express.json()) // Allows express to read json
 
 app.use("/api/v1/wpp1", wpp1) // URL for users to go to the app
