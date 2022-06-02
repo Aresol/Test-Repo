@@ -1,5 +1,5 @@
-const express = require("express");
-const userModel = require("./models");
+import express from "express"
+import userModel from ("./models")
 const app = express();
 
 //ADD USER ENDPOINT
