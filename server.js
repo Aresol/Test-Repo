@@ -5,7 +5,7 @@ import router from "./route.js"
 const app = express()
 const username = "wpp-mdb-admin";
 const password = "UbMZwDLZCKGSum4t";
-const cluster = "cluster0.blzddpr.";
+const cluster = "cluster0.blzddpr";
 const dbname = "";
 
 app.use(express.json()) // Allows express to read json
