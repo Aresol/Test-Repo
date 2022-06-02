@@ -1,6 +1,6 @@
 import express from "express"
 import mongoose from "mongoose"
-import router from "./api/route.js"
+import router from "./route.js"
 
 const app = express()
 
