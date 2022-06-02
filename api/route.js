@@ -1,5 +1,5 @@
 import express from "express"
-import userModel from ("./models")
+import userModel from "./models"
 const app = express();
 
 //ADD USER ENDPOINT
