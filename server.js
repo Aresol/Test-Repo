@@ -13,8 +13,7 @@ app.use(express.json()) // Allows express to read json
 mongoose.connect(
   `mongodb+srv://${username}:${password}@${cluster}.mongodb.net/${dbname}?retryWrites=true&w=majority`, 
   {
-    useNewUrlParser: true,
-    useFindAndModify: false
+    useNewUrlParser: true
   }
 );
 
