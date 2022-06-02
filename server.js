@@ -1,6 +1,6 @@
-const express = require("express");
-const mongoose = require("mongoose");
-const Router = require("./api/route")
+import express from "express"
+import mongoose from "mongoose"
+import router from "./api/route"
 
 const app = express()
 
