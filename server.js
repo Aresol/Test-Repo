@@ -6,9 +6,6 @@ const app = express()
 
 app.use(express.json()) // Allows express to read json
 
-app.use("/api/v1/wpp1", wpp1) // URL for users to go to the app
-app.use("*", (req, res) => res.status(404).json({ error: "not found"})) // If used an incorrect URL return error
-
 mongoose.connect(process.env.WPP1_DB_URI,
   {
     useNewUrlParser: true,
